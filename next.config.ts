@@ -1,4 +1,7 @@
 import type { NextConfig } from "next";
+import { validarContacto } from "./src/config/validar-contacto";
+
+validarContacto();
 
 const nextConfig: NextConfig = {
   // Sitio estático en out/ para publicarlo en Cloudflare Pages.
